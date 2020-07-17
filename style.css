@@ -1,0 +1,30 @@
+
+
+/* <!-- nav section --> */
+
+.nav {
+    display: inline-block;
+
+
+}
+
+h1 {
+    color: blueviolet;
+    display: inline-block;
+
+}
+
+.box-container > box {
+    display: inline-block;
+    background-color: red;
+    height: 25px;
+    width: 25px;
+}
+
+
+/* <!-- middle section -->
+
+
+<!-- bottom section -->
+ */
+
