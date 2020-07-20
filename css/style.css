@@ -1,20 +1,53 @@
+.main1 {
+    background-color: red;
+}
+
 /* nav */
 
-.main-nav {
-    display: flex;
-
-    background-color: rgba(202, 165, 109, 0.438);
+.main-nav-container {
+    background-color: black;
+    align-items: center;
 
 }
 
 .nav-wrapper  {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .box {
     display: flex;
     justify-self: flex-end;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+a {
+    color: red;
+    font-family: 'Wallpoet', cursive;
+
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Wallpoet', cursive;
+    background-clip: text;
+    background-color: #e62a2a;
+    background-image: linear-gradient(45deg, #f39f78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
 }
 
 /* nav end */
@@ -97,6 +130,36 @@
 
 }
 
+/* bottom-section */
+
+.box-container {
+    /* display: flex;
+    justify-content: center; */
+    background-color: black;
+    height: 54%;
+    width: 100%;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 9px;
+
+} 
+
+.box-wrapper > .box1 {
+    background-color: #f1f1f1;
+    
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.box1 {
+    width: 175px;
+    height: 131px
+}
+
 /* footer section */
 
 footer {
@@ -117,4 +180,30 @@ footer {
 button {
     display: flex;
     justify-content: center;
+}
+
+
+
+/* footer section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: white;
+    font-family: 'Wallpoet', cursive;
+
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color:blue;
 }
