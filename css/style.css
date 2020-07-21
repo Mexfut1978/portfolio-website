@@ -1,9 +1,16 @@
 body {
     width: 100%;
+    background-color: black;
+    
 }
 
 .main1 {
-    background-color: red;
+    max-width: 1500px;
+    width: 100%;
+    min-height: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
 /* nav */
@@ -11,6 +18,10 @@ body {
 .main-nav-container {
     background-color: black;
     align-items: center;
+    max-width: 1500px;
+    width: 100%;
+    min-height: 80px;
+
 
 }
 
@@ -56,6 +67,8 @@ h1 {
 
 /* nav end */
 
+ 
+
 .overlay {
     width: 100%;
     height: 100%;
@@ -66,6 +79,8 @@ h1 {
 
 .slides-navigation {
     z-index: 6;
+    
+
 }
 
 .slides-navigation .prev,
@@ -137,10 +152,8 @@ h1 {
 /* bottom-section */
 
 .box-container {
-    /* display: flex;
-    justify-content: center; */
     background-color: black;
-    height: 54%;
+    height: 22%;
     width: 100%;
 }
 
@@ -160,9 +173,44 @@ h1 {
 }
 
 .box1 {
-    width: 175px;
-    height: 131px
+    width: 280px;
+    height: 131px;
+    border-radius: 16px;
+
 }
+
+#a1 {
+    background-color: red;
+   
+}
+
+#a2 {
+    background-color: gray;
+   
+
+}
+
+#a3 {
+    background-color: blue;
+ 
+}
+
+#a4 {
+    background-color: blue;
+}
+    
+
+#a5 {
+    background-color: gray;
+
+}
+
+#a6 {
+    background-color:red;
+}
+
+
+
 
 /* footer section */
 
@@ -186,7 +234,9 @@ button {
     justify-content: center;
 }
 
-
+#hr-line {
+    background-color: white;
+}
 
 /* footer section */
 
