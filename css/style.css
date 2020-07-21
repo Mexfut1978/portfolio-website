@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+}
+
 .main1 {
     background-color: red;
 }
